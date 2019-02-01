@@ -1,0 +1,54 @@
+$color-text: #e1eef6;
+$color-link: #ff5f2e;
+$color-link-hover: #fcbe32;
+$black: #111111;
+
+body {
+  font-family: sans-serif;
+  background-color: $black;
+}
+
+a {
+  color: $color-link;
+  
+  &:hover {
+    color: $color-link-hover;
+  }
+}
+
+button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.screen {
+  background-color: $color-text;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  content: " ";
+  overflow: hidden;
+  
+    // Fallback for old browsers
+  background: #16222A;
+
+  background: -webkit-linear-gradient(to left, #16222A , #3A6073);
+  background: linear-gradient(to left, #16222A , #3A6073);
+  
+  background-size: cover;
+  
+  background-image: url(https://cldup.com/gn3s3Fg75t.gif);
+  
+   color: $color-text;
+}

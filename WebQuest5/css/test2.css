@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Martel:200);
+body {
+  background-color: #7DA5A6;
+  margin: 20px;
+  font-family: 'Martel', serif;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ecf0f1;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.container p {
+  margin-top: 0;
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  font-size: 14px;
+}
+.container ul > li {
+  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  font-size: 14px;
+}
+.container .submit {
+  border-top: 1px solid #7DA5A6;
+  padding-top: 20px;
+  text-align: center;
+}
+.container .submit p {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.container .submit button {
+  padding: 5px 10px;
+  background-color: #005057;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  max-width: 80px;
+  margin: 0 auto;
+}
+.container .submit span {
+  font-size: 12px;
+  display: block;
+}
+
+
+
+input {
+  padding: 15px 10px;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 3px 20px rgba(17, 17, 17, 0.1);
+ // width: 100%;
+ // height: 45px;
+  outline: #8DFEE1;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  margin: 20px auto;
+  width: 100%;
+  height: 45px;
+  display: block;
+  background: #FEA88D;
+  color: #fff;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  box-shadow: 1px 3px 20px rgba(17, 17, 17, 0.1);
+  border-radius: 3px;
+  outline: none;
+}
+.btn:hover {
+  background: #fe9574;
+}
